@@ -80,8 +80,8 @@ body {
     text-align: center;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
     
-    /* ĐÃ HẠ THẺ XUỐNG THÊM RẤT NHIỀU THEO YÊU CẦU */
-    margin-top: 180px; 
+    /* Đưa thẻ vào giữa khung hình, căn chỉnh đều */
+    margin-top: 30px; /* Offset nhẹ để cân bằng với ảnh đại diện nhô lên */
     z-index: 10;
     
     /* Gộp hiệu ứng xuất hiện (Card Entrance) và Nhịp thở bóng đổ (Breathing Shadow) */
