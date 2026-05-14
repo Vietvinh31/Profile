@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Cá Nhân Của Tôi</title>
+    <!-- Import phông chữ Inter từ Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Liên kết file thiết kế -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Những vòng tròn phát sáng làm nền -->
+    <div class="background-shape shape-1"></div>
+    <div class="background-shape shape-2"></div>
+    <div class="background-shape shape-3"></div>
+
+    <!-- Khu vực thẻ thông tin (Glassmorphism) -->
+    <div class="profile-card">
+        <!-- Ảnh đại diện -->
+        <div class="avatar-container">
+            <img src="assets/avatar.jpg" alt="Avatar" class="avatar" onerror="this.src='https://ui-avatars.com/api/?name=Ha+Viet+Vinh&background=e0e7ff&color=4f46e5&size=150'">
+        </div>
+
+        <!-- Thông tin cá nhân -->
+        <h1 class="name">Hà Viết Vinh</h1>
+        <h2 class="profession">Sinh Viên IT / Intern</h2>
+        <p class="bio">
+            Sinh viên năm 3 chuyên ngành Mạng và Hệ thống thông tin với nền tảng kỹ thuật vững chắc. Đang tìm kiếm cơ hội thực tập để áp dụng kiến thức vào thực tế và phát triển bản thân.
+        </p>
+
+        <!-- Nút liên hệ và CV -->
+        <div class="buttons">
+            <a href="mailto:havietvinh527@gmail.com" class="btn primary">
+                <i class="fa-solid fa-envelope"></i> Email
+            </a>
+            <a href="javascript:void(0)" onclick="alert('Số điện thoại của Vinh: 0375219286'); this.innerHTML='<i class=\'fa-solid fa-phone\'></i> 0375219286';" class="btn primary" title="Nhấn để hiện số điện thoại">
+                <i class="fa-solid fa-phone"></i> SĐT
+            </a>
+            <a href="Ha-Viet-Vinh-CV..pdf" class="btn secondary" target="_blank">
+                <i class="fa-solid fa-file-pdf"></i> Xem CV
+            </a>
+        </div>
+
+        <!-- Mạng xã hội -->
+        <div class="social-links">
+            <a href="https://www.facebook.com/ha.viet.vinh.781773/" class="social-icon facebook" title="Facebook" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/Vietvinh31" class="social-icon github" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/vinh-h%C3%A0-vi%E1%BA%BFt-a655093bb/" class="social-icon linkedin" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+
+    <!-- Liên kết file xử lý hiệu ứng -->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
